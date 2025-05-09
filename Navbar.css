@@ -1,0 +1,53 @@
+/* Import Bebas Neue font */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: transparent; /* Transparent background */
+  font-family: 'Bebas Neue', sans-serif;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.8rem;
+  color: white; /* White logo text */
+  flex: 1; /* Take left side */
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 11; /* Center the nav links */
+  list-style: none;
+  gap: 40px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white; /* White nav links */
+  font-size: 1.2rem;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+ 
+  gap: 5px;
+  cursor: pointer;
+  flex: -5; /* Right side */
+  padding: 10px; /* Add some padding */
+  padding-right: 100px;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: white; /* White hamburger lines */
+}
